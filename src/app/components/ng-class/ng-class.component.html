@@ -1,0 +1,19 @@
+<div [ngClass]="alertt" class="alert" role="alert">
+    A simple success alert—check it out!
+</div>
+<button type="button" class="btn btn-info" (click)="alertt = 'alert-info'">
+    inf
+</button>
+
+<button type="button" class="btn btn-success" (click)="alertt = 'alert-success'">
+    succes
+</button>
+
+<!-- <h3 [ngClass]="{'text-danger': true}">Hello world</h3> -->
+
+<br>
+<br>
+<h2>asyncrono</h2>
+<button (click)="run()" class="btn btn-primary">
+    save change
+</button>
